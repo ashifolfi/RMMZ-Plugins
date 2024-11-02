@@ -9,7 +9,7 @@
  *
  * @help
  * Uses MV Style Animations for battlers instead of normal battler graphics.
- * To set an animation for a battler, put <Anim_Idle=[id]> in the note section.
+ * To set an animation for a battler, put <AnimIdle:[id]> in the note section.
  */
 
 (function() {
@@ -20,8 +20,7 @@
 
         if (this._mainAnim == null)
         {
-            const emNote = $dataEnemies[this._enemy.enemyId()].note;
-            const animId = Number(emNote.match(/(?:<Anim_Idle=)(\d+)(?:>)/)[1]);
+            const animId = $dataEnemies[this._enemy.enemyId()].meta.AnimIdle;
 
             this._mainAnim = new Sprite_AnimationMV();
             this._mainAnim.setup([this], $dataAnimations[animId], false, 0);
