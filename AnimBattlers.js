@@ -8,7 +8,8 @@
  * @author Eden
  *
  * @help
- * Uses MV Style Animations for battlers instead of normal battler graphics
+ * Uses MV Style Animations for battlers instead of normal battler graphics.
+ * To set an animation for a battler, put <Anim_Idle=[id]> in the note section.
  */
 
 (function() {
