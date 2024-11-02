@@ -6,6 +6,7 @@
  * @target MZ
  * @plugindesc [MZ] [ProjectRed] [Menu]
  * @author Eden
+ * @url https://github.com/ashifolfi/RMMZ-Plugins
  *
  * @help Replaces the menu with an Undertale style menu
  */

@@ -6,6 +6,7 @@
  * @target MZ
  * @plugindesc [MZ] [Battle]
  * @author Eden
+ * @url https://github.com/ashifolfi/RMMZ-Plugins
  *
  * @help
  * Uses MV Style Animations for battlers instead of normal battler graphics.

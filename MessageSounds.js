@@ -6,6 +6,7 @@
  * @target MZ
  * @plugindesc [MZ] [Message]
  * @author Eden
+ * @url https://github.com/ashifolfi/RMMZ-Plugins
  *
  * @help Adds sounds to text appearing in the message window.
  * In message events use \S[number] to select a sound effect. Setting the id to 0 will stop sounds from playing.
@@ -70,7 +71,6 @@ function RandomRange(min, max)
 
     Window_Message.prototype.processSoundControl = function(id)
     {
-        // get the sound effect from the list of sounds in properties
         this._soundEffect = id;
     };
 

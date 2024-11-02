@@ -6,6 +6,7 @@
  * @target MZ
  * @plugindesc [MZ] [Battle]
  * @author Eden
+ * @url https://github.com/ashifolfi/RMMZ-Plugins
  *
  * @help
  * Replaces the battle backgrounds with earthbound style effects.

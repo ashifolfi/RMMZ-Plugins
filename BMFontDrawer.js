@@ -6,6 +6,7 @@
  * @target MZ
  * @plugindesc [MZ] [BMFont Support]
  * @author Eden
+ * @url https://github.com/ashifolfi/RMMZ-Plugins
  *
  * @help
  * This plugin adds support for text format BMFont fonts
